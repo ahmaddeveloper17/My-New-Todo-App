@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './components/Home'
 import SignIn from './components/Signin'
 import Signup from './components/Signup'
 
@@ -7,6 +8,7 @@ function App() {
         <>
         <Signup/>
         <SignIn/>
+        <Home/>
         </>
     )
 }
