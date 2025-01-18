@@ -1,16 +1,8 @@
-import './App.css'
-import Home from './components/Home'
-import SignIn from './components/Signin'
-import Signup from './components/Signup'
+import './App.css';
+import Routes from './pages/Routes';
 
 function App() {
-    return (
-        <>
-        <Signup/>
-        <SignIn/>
-        <Home/>
-        </>
-    )
+    return <Routes />;
 }
 
-export default App
+export default App;
